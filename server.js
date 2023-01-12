@@ -6,9 +6,9 @@ const port = 3000;
 
 // Set up input and output sockets
 var inputSocket = null;
-const inputIp = "192.168.0.100";
+const inputIp = "0.0.0.0";
 var outputSocket = null;
-const outputIp = "127.0.0.1";
+const outputIp = "0.0.0.0";
 
 server.get('/', function(request, response) {
   response.sendFile(__dirname + '/index.html');

@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "@railway/cli": "^2.1.0"
   }
